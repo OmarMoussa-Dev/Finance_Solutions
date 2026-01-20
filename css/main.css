@@ -195,6 +195,7 @@ position: absolute;
      /*this code to testing code dimention */
     /* border: 1px solid red; */
     border: none;
+    outline: none;
 }
 .finance-solutions .container .text-box input::placeholder {
   font-weight: 400px;
@@ -273,8 +274,10 @@ margin-left: 80px;
 /* Start graph-Grid */
 .graph-Grid {
   margin-top: 62px;
-  width: 1536px;
+  max-width: 1536px;
   height: 747px;
+  margin-left: 192px;
+  margin-right: 192px;
   background-color: Gray 6;
   /* this code for testing to see the dimention of the element*/
   /* border: 1px solid red; */
@@ -283,13 +286,10 @@ margin-left: 80px;
   display: grid;
   grid-template-columns:  repeat(3, auto);
   grid-template-rows: 180px, 470px; 
+  gap: 20px 25px;
+  background-color: rgba(242, 242, 242, 1);
 }
-.box-one {}
-.box-two {}
-.box-three {}
-.box-four {}
-.box-five {}
-.box-six {}
+
 
 .box-one,
 .box-two,
@@ -297,7 +297,15 @@ margin-left: 80px;
 .box-four,
 .box-five,
 .box-six {
-  background-color: rgba(224, 224, 224, 1);
-  background-color: green;
+  background-color: rgba(255, 255, 255, 1);
+  /* background-color: green; */
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
 }
+
+.box-one .part-one span {
+   
+}
+ 
 /* End graph-Grid */
