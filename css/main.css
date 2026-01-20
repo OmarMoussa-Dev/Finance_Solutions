@@ -192,8 +192,9 @@ position: absolute;
     width: 640px;
     height: 72px;
     border-radius: 100px;
-    border: 1px solid red;
-    /* border: none; */
+     /*this code to testing code dimention */
+    /* border: 1px solid red; */
+    border: none;
 }
 .finance-solutions .container .text-box input::placeholder {
   font-weight: 400px;
