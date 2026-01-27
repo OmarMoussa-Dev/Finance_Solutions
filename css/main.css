@@ -100,16 +100,21 @@
 
 } */
 .header .button button {
-  color: var(--Primary-Dark, #1D1C20);
-  font-family: "DM Sans";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 19.2px;
-  width: 136px;
-  height: 50px;
-  border-radius: 64px;
-  border: 1px solid #3B3B3B;
+      color: var(--Primary-Dark, #1D1C20);
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19.2px;
+    width: 136px;
+    height: 50px;
+    border-radius: 64px;
+    border: 1px solid #3B3B3B;
+    border-bottom: none;
+    box-shadow: 0px 1px 1px 0 inset;
+}
+.header .button button span {
+
 }
  
 /* end header */
@@ -130,6 +135,7 @@
     background-color: transparent;
     border-bottom: none;
     position: relative;
+    box-shadow: 0px 0px 1px 0px inset;
 
      
 }
@@ -204,7 +210,7 @@ position: absolute;
   padding-left: 33px;
   padding-top: 21px;
 }
-.finance-solutions .container .text-box button{
+.finance-solutions .container .text-box button {
     width: 176px;
     height: 60px;
     background-color: var(--priary-dark);
@@ -217,6 +223,12 @@ position: absolute;
     -moz-border-radius: 100px;
     -ms-border-radius: 100px;
     -o-border-radius: 100px;
+}
+.finance-solutions .container .text-box button span {
+  font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
 }
 .finance-solutions .avatar-section {
         width: 880px;
@@ -2201,22 +2213,136 @@ footer .content .boxs .box-one .bottom-section .social .github i {
 footer .content .boxs .box-one .bottom-section .social .facebook i {
   color: rgba(255, 255, 255, 1)
 }
+/* ************start box two************* */
+footer .content .boxs .box-two {
+ width: 94;
+height: 148;
+ 
+ 
 
+}
+footer .content .boxs .box-two p {
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: rgba(29, 28, 32, 1);
+  margin-bottom: 32px;
+}
+footer .content .boxs .box-two .info {
+  width: 77px;
+  height: 96px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 24px;
+}
+footer .content .boxs .box-two .info span {
+      font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: rgba(79, 79, 79, 1);
+    
+}
+/******* start box three*******/
+footer .content .boxs .box-three {
+     width: 146px;
+    height: 148px;
+}
+footer .content .boxs .box-three p {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    margin-bottom: 32px;
+    color: rgba(29, 28, 32, 1);
+}
+footer .content .boxs .box-three .info {
+  width: 146px;
+  height: 96px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 24px;
+}
+footer .content .boxs .box-three .info span {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: rgba(79, 79, 79, 1);
+}
 
+/* start box four */
+footer .content .boxs .box-four {
+  width: 487px;
+  height: 107px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  border: 1px solid red;
+}
+footer .content .boxs .box-four p {
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  color: rgba(29, 28, 32, 1);
+}
+ 
+footer .content .boxs .box-four .info {
+    width: 487.5px;
+    height: 55px;
+    position: relative;
+    border: 1px solid red;
+}
+footer .content .boxs .box-four .info input {
+  width: 487.5px;
+  height: 55px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
 
-
-
-
-
-
-
-
-
-
-
+}
+footer .content .boxs .box-four .info input::-webkit-input-placeholder {
+ padding-top: 16px;
+ padding-left: 20px;
+ font-size: 16px;
+ line-height: 22px;
+   color: rgba(29, 28, 32, 1);
+}
+footer .content .boxs .box-four .info button {
+  width: 175px;
+    height: 55px;
+    background-color: rgba(163, 220, 47, 1);
+    color: rgba(250, 250, 250, 1);
+    border: 1px solid rgba(163, 220, 47, 1);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+footer .content .boxs .box-four .info button span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(250, 250, 250, 1);
+    font-family: 'DM Sans';
+}
+/*THE SECONDE  part of footer */
 footer hr {
   display: block;
   width: 1637px;
+  color: rgba(189, 189, 189, 1);
+  margin: 46px 0;
 }
-
+footer .content p {
+    margin-top: 46px;
+    margin-left: 645px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: rgba(250, 250, 250, 1);
+}
 /* ===========end footer============== */
