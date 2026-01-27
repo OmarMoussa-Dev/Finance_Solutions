@@ -1,0 +1,137 @@
+/* 
+
+
+footer .content {
+  
+  width: 1056px;
+    height: 376px;
+    border: 1px solid green;
+    margin: 98px 91px 0;
+}  
+footer .boxs {
+  border: 1px solid yellow;
+    display: inline-flex;
+  display: inline-flex;
+}
+footer .boxs .box-one {
+  height: 170px;
+  width: 496px;
+  display: inline-flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-items: flex-start;
+  margin-top: 47px;
+  border: 1px solid red;
+  margin-left: 0;
+  margin-right: 138px;
+}
+footer .boxs .box-one .top-section {
+ display: inline-flex;
+ margin-left: 0;
+ 
+}
+footer .boxs .box-one .top-section image {
+width: 24px;
+height: 24px;
+color: rgba(163, 220, 47, 1);
+}
+footer .boxs .box-one .top-section span {
+  margin-left: 8px;
+  margin-top: 4px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 16.2px;
+  color: rgba(29, 28, 32, 1);
+
+}
+footer .boxs .box-one .bottom-section {
+  display: inline-flex;
+  flex-direction: column;
+  width: 496;
+  height: 114;
+  position: relative;
+
+
+
+}
+footer .boxs .box-one .bottom-section p {
+  margin-top: 32px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+}
+footer .boxs .box-one .bottom-section .social {
+  width: 180px;
+  height: 36px;
+  margin-top:  3px;
+  display: inline-flex;
+  border: 1px solid red;
+}
+footer .boxs .box-one .bottom-section .social .tweeter,
+footer .boxs .box-one .bottom-section .social .facebook,
+footer .boxs .box-one .bottom-section .social .instgram,
+footer .boxs .box-one .bottom-section .social .github {
+      width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+}
+footer .boxs .box-one .bottom-section .social .facebook {
+  background-color: rgba(43, 89, 255, 1);
+}
+footer .boxs .box-one .bottom-section .social .tweeter i,
+footer .boxs .box-one .bottom-section .social .facebook i,
+footer .boxs .box-one .bottom-section .social .instgram i,
+footer .boxs .box-one .bottom-section .social .github i {
+  font-size: 14px;
+  color: rgba(29, 28, 32);
+  z-index: 1;
+}
+footer .boxs .box-one .bottom-section .social .facebook i {
+color: rgba(255, 255, 255, 1)
+}
+
+/* ************box-two************ */
+footer .boxs .box-two {
+  border: 1px solid red;
+  margin-bottom: 22px;
+  margin-right: 138px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+footer .boxs .box-two p {
+  font-size: 20px;
+  font-weight: 700px;
+  color: rgba(29, 28, 32, 1);
+}
+footer .boxs .box-two .info {
+  
+  width: 55px;
+  height: 96px;
+  
+  border: 1px solid red;
+}
+footer .boxs .box-two .info span {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(79, 79, 79, 1);
+
+}
+footer .boxs .box-two .info span:nth-child(2) {
+margin-top: 24px;
+margin-right: 24px;
+}
+
+
+
+
+footer hr {
+  display: block;
+  width: 1637px;
+}
+*/
