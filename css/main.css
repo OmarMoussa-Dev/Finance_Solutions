@@ -1301,14 +1301,15 @@ width: 298.68px;
 
 }
 .optimise .box-five  button span {
-  font-size: 18px;
   color: rgba(255, 255, 255, 1);
   font-weight: 600;
-  width: 115px;
-  height: 22px;
+  
   padding: 10px 36px;
   /* padding: 19px 42px; */
-
+  /* eror 404 */
+  /* font-size: 18px; */
+  font-size: 17px;
+  
 }
 /* end optimise */
 /* start testmonials  */
@@ -2209,7 +2210,9 @@ footer .box-one  .bottom-section p {
     font-family: 'DM Sans';
     font-size: 20px;
     line-height: 160%;
-    color: rgba(185, 179, 179, 1);
+    /* eroro 404 */
+    /* color: rgba(185, 179, 179, 1); */
+    color: rgba(79, 79, 79, 1);
     margin-bottom: 24px;
 }
 footer .box-one  .bottom-section .social{
@@ -2267,8 +2270,11 @@ footer .box-one  .bottom-section .social .facebook i {
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
-  color: rgba(185, 179, 179, 1);
- }
+  /* eror 404 */
+  /* color: rgba(185, 179, 179, 1); */
+  color: rgba(79, 79, 79, 1);
+   
+}
  
 
 /******* start box three*******/
@@ -2302,7 +2308,11 @@ footer .box-three .info span {
     line-height: 100%;
     color: rgba(79, 79, 79, 1);
 }
-footer .box-three .info span:nth-child(2) {}
+footer .box-three .info span  {
+  /* eror 404 */
+ /* color: rgba(185, 179, 179, 1); */
+color: rgba(79, 79, 79, 1);
+}
 
 
 /* start box four */
@@ -2326,6 +2336,7 @@ footer .box-four .info {
 footer .box-four .info input {
   width: 487.5px;
   height: 55px;
+  border-color: transparent;
 }
 footer .box-four .info input::placeholder {
   padding: 16px 0 16px 20px;
@@ -2354,14 +2365,17 @@ footer .box-four .info button span {
 
  
 /*THE SECONDE  part of footer */
+footer .reserved hr {
+  color: rgba(189, 189, 189, 1);
+}
 footer .reserved p {
-     
-    margin: 46px 567px 47px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.5px;
-    color: rgba(79, 79, 79, 1);
+  
+  margin: 46px 567px 47px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  color: rgba(79, 79, 79, 1);
 }
 
 /* ===========end footer============== */
