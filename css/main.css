@@ -1,9 +1,11 @@
  :root {
   --main-color:#f5f5f5 ;
   --priary-dark: #1D1C20;
-  --secondery-color: #A3DC2F;
+  --secondery-color: rgba(163, 220, 47, 1);
+  /*  */
   --orang-color: #FFC250;
   --white-color: #f2f2f2;
+  --gray-color: rgba(224, 224, 224, 1);
   --section-padding: 100px;
   
 }
@@ -14,6 +16,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+
  }
  ul {
      list-style-type: none;
@@ -153,7 +156,7 @@
       width: 45px;
     position: absolute;
     height: 25px;
-    background-color: #a3dc2f;
+    background-color: var(--secondery-color);
     padding: 4px 8px 4px 8px;
     /* margin: 4px 4px 8px 4px; */
     top: 4px;
@@ -171,7 +174,7 @@ position: absolute;
     font-size: 14px;
     line-height: 16.8px;
     letter-spacing: 0;
-    color: #1D1C20;
+    color: var(--priary-dark);
 }
 .finance-solutions .container .all img {
     width: 16px;
@@ -595,7 +598,7 @@ margin-left: 80px;
   width: 203px;
   height: 0;
   border-radius: 1px solid ;
-  -webkit-border-radius: 1px solid rgba(224, 224, 224, 1) ;
+  -webkit-border-radius: 1px solid var(--gray-color) ;
   -moz-border-radius: 1px solid ;
   -ms-border-radius: 1px solid ;
   -o-border-radius: 1px solid ;
@@ -773,7 +776,7 @@ color: rgba(29, 28, 32, 1);
     top: 20px;
    
   /* padding: 48px 10px 10px 10px; */
-/* background: linear-gradient(rgba(255, 255, 255, 1),rgba(163, 220, 47, 1)); */
+/* background: linear-gradient(rgba(255, 255, 255, 1),var(--secondery-color)); */
 }
  
 
@@ -790,7 +793,7 @@ color: rgba(29, 28, 32, 1);
  *//*padding: 28px 10px 10px 10px;
  *//*display: flex;
  *//*bottom: 10px;
- */box-shadow: 1px -20px 247px 25px rgba(163, 220, 47, 1), inset 1px -20px 66px 66px rgba(255, 255, 255, 0.5);
+ */box-shadow: 1px -20px 247px 25px var(--secondery-color), inset 1px -20px 66px 66px rgba(255, 255, 255, 0.5);
  position:relative;
  border-radius:48px;
  -webkit-border-radius:48px;
@@ -814,7 +817,7 @@ color: rgba(29, 28, 32, 1);
   display: flex;
   justify-content:space-evenly;
   align-items: center;
-      box-shadow: inset 1px -20px 247px -52px rgba(163, 220, 47, 1), inset 1px -20px 66px 66px rgba(255, 255, 255, 0.5);
+      box-shadow: inset 1px -20px 247px -52px var(--secondery-color), inset 1px -20px 66px 66px rgba(255, 255, 255, 0.5);
  
 }
 .product-shadow .container ul li:last-child {
@@ -1610,7 +1613,7 @@ line-height: 30px;
  .testmonials .arrow .two {
       width: 60px;
     height: 60px;
-    background-color: rgba(163, 220, 47, 1);
+    background-color: var(--secondery-color);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -1629,7 +1632,7 @@ line-height: 30px;
   
 }
 .testmonials .arrow .two i {
-  background-color: rgba(163, 220, 47, 1);
+  background-color: var(--secondery-color);
   /* transform: rotate(60deg) ; */
  }
 
@@ -2028,7 +2031,7 @@ color: rgba(79, 79, 79, 1)
 
 .plan-section .boxs-plan .box-ent button {
   position: absolute;
-  background-color: rgba(163, 220, 47, 1);
+  background-color: var(--secondery-color);
   border-radius: 64px;
   -webkit-border-radius: 64px;
   -moz-border-radius: 64px;
@@ -2105,8 +2108,8 @@ color: rgba(79, 79, 79, 1)
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: rgba(163, 220, 47, 1);
-  border: 1px solid rgba(163, 220, 47, 1);
+  background-color: var(--secondery-color);
+  border: 1px solid var(--secondery-color);
 
 }
 .upgrade .info button:last-of-type {
@@ -2147,14 +2150,14 @@ color: rgba(255, 255, 255, 1);
 
  /* ===========statar footer============== */
 footer {
-  background-color: rgba(224, 224, 224, 1);
+  background-color: var(--gray-color);
   max-width: 100%;
   width: 1920px;
   height: 474px;
    
 }
 footer .container {
-  background-color: rgba(224, 224, 224, 1);
+  background-color: var(--gray-color);
   /* eror 404 wronge width */
   /* width: 1637px; */
   width: 1577px;
@@ -2349,8 +2352,8 @@ footer .box-four .info button {
   position: absolute;
   width: 175.5px;
   height: 55px;
-  background-color: rgba(163, 220, 47, 1);
-  border: 1px solid rgba(163, 220, 47, 1);
+  background-color: var(--secondery-color);
+  border: 1px solid var(--secondery-color);
   top: 0;
   right: 0;
 }
