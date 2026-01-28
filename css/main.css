@@ -125,11 +125,7 @@
     border: 1px solid #3B3B3B;
     border-bottom: none;
     box-shadow: 0px 1px 1px 0 inset;
-}
-.header .button button span {
-
-}
- 
+} 
 /* end header */
 /* Start Introducing AI Automation */
 .finance-solutions {
@@ -1033,9 +1029,6 @@ width: 298.68px;
 .optimise .box-three .box-info .circel .image img:hover {
   z-index: 100;
 }
-.optimise .box-three .box-info .circel .image img:first-child {
-   
-}
 .optimise .box-three .box-info .circel .image img:nth-child(2) {
   right: 25px;
    
@@ -1210,11 +1203,6 @@ width: 298.68px;
   width: 169px;
   margin: 9px 0 11px;
 }
-.optimise .box-four .monthly .michele span:first-child {}
-.optimise .box-four .monthly .smith span:first-child {}
-
-
-
 .optimise .box-four .monthly .john span:last-child,
 .optimise .box-four .monthly .michele span:last-child,
 .optimise .box-four .monthly .smith span:last-child {
