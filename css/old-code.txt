@@ -1,137 +1,238 @@
-/* 
+   
+    
 
 
-footer .content {
+    css  
+
+
+
+    /* ===========statar footer============== */
+footer {
   
+  /* width: 1920x; */
+  width: 1981px;
+  height: 474px;
+  border: 1px solid red;
+  background-color: rgba(224, 224, 224, 1);
+  
+}
+footer .content {
   width: 1056px;
     height: 376px;
-    border: 1px solid green;
+    border: 1px solid black;
     margin: 98px 91px 0;
-}  
-footer .boxs {
-  border: 1px solid yellow;
+}
+footer .content .boxs {
+    border: 1px solid green;
     display: inline-flex;
-  display: inline-flex;
+    flex-direction: row;
+    gap: 138px;
+    margin-top: 47px;
 }
-footer .boxs .box-one {
-  height: 170px;
-  width: 496px;
-  display: inline-flex;
-  flex-direction: column;
-  align-content: flex-start;
-  justify-items: flex-start;
-  margin-top: 47px;
-  border: 1px solid red;
-  margin-left: 0;
-  margin-right: 138px;
+
+/* ************box-one********** */
+footer .content .boxs .box-one {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 32px;
 }
-footer .boxs .box-one .top-section {
- display: inline-flex;
- margin-left: 0;
- 
+footer .content .boxs .box-one .top-section{}
+footer .content .boxs .box-one .top-section img {
+  width: 24px;
+  height: 24px;
 }
-footer .boxs .box-one .top-section image {
-width: 24px;
-height: 24px;
-color: rgba(163, 220, 47, 1);
-}
-footer .boxs .box-one .top-section span {
-  margin-left: 8px;
+footer .content .boxs .box-one .top-section span {
   margin-top: 4px;
+  margin-left: 8px;
+  width: 71px;
+  height: 17px;
   font-weight: 600;
   font-size: 24px;
   line-height: 16.2px;
   color: rgba(29, 28, 32, 1);
-
 }
-footer .boxs .box-one .bottom-section {
+footer .content .boxs .box-one .bottom-section {
+  border: 1px solid red;
+  width: 496px;
+  height: 114px;
   display: inline-flex;
   flex-direction: column;
-  width: 496;
-  height: 114;
-  position: relative;
-
-
-
+  gap: 24px;
 }
-footer .boxs .box-one .bottom-section p {
-  margin-top: 32px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 160%;
+footer .content .boxs .box-one .bottom-section p {
+  color: rgba(185, 179, 179, 1);
+      font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0;
+    font-family: 'DM SANS';
 }
-footer .boxs .box-one .bottom-section .social {
+footer .content .boxs .box-one .bottom-section .social {
   width: 180px;
   height: 36px;
-  margin-top:  3px;
-  display: inline-flex;
   border: 1px solid red;
+  display: inline-flex;
 }
-footer .boxs .box-one .bottom-section .social .tweeter,
-footer .boxs .box-one .bottom-section .social .facebook,
-footer .boxs .box-one .bottom-section .social .instgram,
-footer .boxs .box-one .bottom-section .social .github {
-      width: 36px;
-    height: 36px;
-    background-color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 12px;
+footer .content .boxs .box-one .bottom-section .social .tweeter,
+footer .content .boxs .box-one .bottom-section .social .facebook,
+footer .content .boxs .box-one .bottom-section .social .instgram,
+footer .content .boxs .box-one .bottom-section .social .github {
+  width: 36px;
+  height: 36px;
+  background-color: rgba(242, 242, 242, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right:12px;
 }
-footer .boxs .box-one .bottom-section .social .facebook {
+footer .content .boxs .box-one .bottom-section .social .facebook {
   background-color: rgba(43, 89, 255, 1);
 }
-footer .boxs .box-one .bottom-section .social .tweeter i,
-footer .boxs .box-one .bottom-section .social .facebook i,
-footer .boxs .box-one .bottom-section .social .instgram i,
-footer .boxs .box-one .bottom-section .social .github i {
-  font-size: 14px;
-  color: rgba(29, 28, 32);
-  z-index: 1;
+footer .content .boxs .box-one .bottom-section .social .tweeter i,
+footer .content .boxs .box-one .bottom-section .social .facebook i,
+footer .content .boxs .box-one .bottom-section .social .instgram i,
+footer .content .boxs .box-one .bottom-section .social .github i {
+  color: rgba(29, 28, 32, 1);
+  font-size: 14.37px;
 }
-footer .boxs .box-one .bottom-section .social .facebook i {
-color: rgba(255, 255, 255, 1)
+footer .content .boxs .box-one .bottom-section .social .facebook i {
+  color: rgba(255, 255, 255, 1)
+}
+/* ************start box two************* */
+footer .content .boxs .box-two {
+ width: 94;
+height: 148;
+ 
+ 
+
+}
+footer .content .boxs .box-two p {
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: rgba(29, 28, 32, 1);
+  margin-bottom: 32px;
+}
+footer .content .boxs .box-two .info {
+  width: 77px;
+  height: 96px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 24px;
+}
+footer .content .boxs .box-two .info span {
+      font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: rgba(79, 79, 79, 1);
+    
+}
+/******* start box three*******/
+footer .content .boxs .box-three {
+     width: 146px;
+    height: 148px;
+}
+footer .content .boxs .box-three p {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    margin-bottom: 32px;
+    color: rgba(29, 28, 32, 1);
+}
+footer .content .boxs .box-three .info {
+  width: 146px;
+  height: 96px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 24px;
+}
+footer .content .boxs .box-three .info span {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: rgba(79, 79, 79, 1);
 }
 
-/* ************box-two************ */
-footer .boxs .box-two {
-  border: 1px solid red;
-  margin-bottom: 22px;
-  margin-right: 138px;
+/* start box four */
+footer .content .boxs .box-four {
+  width: 487px;
+  height: 107px;
   display: flex;
   flex-direction: column;
   gap: 32px;
-}
-footer .boxs .box-two p {
-  font-size: 20px;
-  font-weight: 700px;
-  color: rgba(29, 28, 32, 1);
-}
-footer .boxs .box-two .info {
-  
-  width: 55px;
-  height: 96px;
-  
   border: 1px solid red;
 }
-footer .boxs .box-two .info span {
-  font-weight: 400;
-  font-size: 16px;
-  color: rgba(79, 79, 79, 1);
+footer .content .boxs .box-four p {
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  color: rgba(29, 28, 32, 1);
+}
+ 
+footer .content .boxs .box-four .info {
+    width: 487.5px;
+    height: 55px;
+    position: relative;
+    border: 1px solid red;
+}
+footer .content .boxs .box-four .info input {
+  width: 487.5px;
+  height: 55px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
 
 }
-footer .boxs .box-two .info span:nth-child(2) {
-margin-top: 24px;
-margin-right: 24px;
+footer .content .boxs .box-four .info input::-webkit-input-placeholder {
+ padding-top: 16px;
+ padding-left: 20px;
+ font-size: 16px;
+ line-height: 22px;
+   color: rgba(29, 28, 32, 1);
 }
-
-
-
-
+footer .content .boxs .box-four .info button {
+  width: 175px;
+    height: 55px;
+    background-color: rgba(163, 220, 47, 1);
+    color: rgba(250, 250, 250, 1);
+    border: 1px solid rgba(163, 220, 47, 1);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+footer .content .boxs .box-four .info button span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(250, 250, 250, 1);
+    font-family: 'DM Sans';
+}
+/*THE SECONDE  part of footer */
 footer hr {
   display: block;
   width: 1637px;
+  color: rgba(189, 189, 189, 1);
+  margin: 46px 0;
 }
-*/
+footer .content p {
+    margin-top: 46px;
+    margin-left: 645px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: rgba(250, 250, 250, 1);
+}
+/* ===========end footer============== */
